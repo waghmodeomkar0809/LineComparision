@@ -16,10 +16,10 @@ namespace LineComparision
             this.y1 = y1;
             this.y2 = y2;
         }
-        public void CalculateLength()
+        public double CalculateLength()
         {
             double LineLength = Math.Sqrt(Math.Pow(x1 - x2,2) + Math.Pow(y1 - y2,2));
-            Console.WriteLine(LineLength);
+            return LineLength;
         }
     }
 }
